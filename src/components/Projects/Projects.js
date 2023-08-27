@@ -4,8 +4,8 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/water1.png";
 import emotion from "../../Assets/Projects/food.png";
-import editor from "../../Assets/Projects/tellie.png";
-import chatify from "../../Assets/Projects/date1.png";
+import tellie from "../../Assets/Projects/tellie.png";
+import dating from "../../Assets/Projects/date1.png";
 import suicide from "../../Assets/Projects/cable.png";
 import bitsOfCode from "../../Assets/Projects/manga.png";
 
@@ -23,12 +23,12 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={dating}
               isBlog={false}
               title="MatchDate"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              description="I crafted an engaging UI using Flutter, combining aesthetics with usability. CRUD actions were seamlessly integrated via Flutter and Firebase, enabling efficient backend interaction. The app facilitates real-time audio and video calls, text messaging,Image Sharing ,Voice Sharing  and notifications. Monetization was achieved by seamlessly integrating Google Ads"
+              // ghLink=""
+              // demoLink=""
             />
           </Col>
 
@@ -37,20 +37,20 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Mangakiku"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              description="I meticulously crafted UIs, prioritizing visually captivating and intuitive designs to elevate user experience. By seamlessly incorporating CRUD APIs through Flutter, I established a robust connection between the app and backend server or database. This integration empowers effortless data manipulation and management, all within the application's framework."
+              // ghLink=""
+              // demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={tellie}
               isBlog={false}
               title="Tellie"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"
+              description="This research aims to create a system that emotionally narrates stories to children, mimicking the expressive delivery of human storytellers. Catering primarily to the tech-immersed Alpha generation, the system encourages their engagement in meaningful activities, countering excessive screen time. It enables caregivers to efficiently manage story sessions by performing three core functions: extracting story text from images, identifying emotions within each sentence, and producing emotional audio narratives."
+              // ghLink=""
+              // demoLink=""
             />
           </Col>
 
@@ -59,9 +59,9 @@ function Projects() {
               imgPath={leaf}
               isBlog={false}
               title="Water Bill Collection"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              description="I created a captivating and user-friendly UI using Flutter, covering the entire application design process. Through Flutter, I seamlessly integrated CRUD API functionality, enabling effortless backend interaction and data management. By harnessing Firebase Machine Learning, I integrated image scanning to extract text from images, enhancing accessibility and user convenience."
+              ghLink=""
+              demoLink=""
             />
           </Col>
 
@@ -70,9 +70,9 @@ function Projects() {
               imgPath={suicide}
               isBlog={false}
               title="Cable Connection"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              description=" I orchestrated the development of both front-end and back-end aspects, guaranteeing a smooth fusion of the application's UI and backend. Crafting captivating and intuitive UIs, I skillfully designed layouts and components to ensure an engaging user journey. Through API connections, I facilitated seamless communication between the app and external services or databases, enabling diverse interactions such as data retrieval and updates, thereby enriching the overall functionality."
+              // ghLink=""
+              // demoLink=""
             />
           </Col>
 
@@ -81,10 +81,9 @@ function Projects() {
               imgPath={emotion}
               isBlog={false}
               title="Food Ordering"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
+              description="I executed CRUD operations using Kotlin and Firebase, streamlining data management and interaction between the app and Firebase backend. This seamless integration enabled fluid data manipulation within the application. Leveraging Firebase, I integrated OTP verification and email authentication for secure user access. Moreover, I embedded QR scanning within the app, enhancing user interactions by extracting information from QR codes, boosting convenience."
+              // ghLink=""
+              // demoLink=""
             />
           </Col>
         </Row>
