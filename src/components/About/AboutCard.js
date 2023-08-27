@@ -14,8 +14,8 @@ function AboutCard() {
             Information Technology at Srilanka Information Institute of
             Technology.
             <br />
-            Additionally, I am currently employed as a software developer at
-            MFC.
+            Additionally, I am currently employed as a Software Engineer at
+            7Zigma.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
