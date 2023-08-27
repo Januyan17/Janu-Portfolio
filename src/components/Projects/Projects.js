@@ -8,6 +8,7 @@ import tellie from "../../Assets/Projects/tellie.png";
 import dating from "../../Assets/Projects/date1.png";
 import suicide from "../../Assets/Projects/cable.png";
 import bitsOfCode from "../../Assets/Projects/manga.png";
+import chat from "../../Assets/Projects/chat.png";
 
 function Projects() {
   return (
@@ -48,7 +49,7 @@ function Projects() {
               imgPath={tellie}
               isBlog={false}
               title="Tellie"
-              description="This research aims to create a system that emotionally narrates stories to children, mimicking the expressive delivery of human storytellers. Catering primarily to the tech-immersed Alpha generation, the system encourages their engagement in meaningful activities, countering excessive screen time. It enables caregivers to efficiently manage story sessions by performing three core functions: extracting story text from images, identifying emotions within each sentence, and producing emotional audio narratives."
+              description="This research using DeepLearning aims to create a system that emotionally narrates stories to children, mimicking the expressive delivery of human storytellers. Catering primarily to the tech-immersed Alpha generation, the system encourages their engagement in meaningful activities, countering excessive screen time. It enables caregivers to efficiently manage story sessions by performing three core functions: extracting story text from images, identifying emotions within each sentence, and producing emotional audio narratives."
               // ghLink=""
               // demoLink=""
             />
@@ -71,6 +72,17 @@ function Projects() {
               isBlog={false}
               title="Cable Connection"
               description=" I orchestrated the development of both front-end and back-end aspects, guaranteeing a smooth fusion of the application's UI and backend. Crafting captivating and intuitive UIs, I skillfully designed layouts and components to ensure an engaging user journey. Through API connections, I facilitated seamless communication between the app and external services or databases, enabling diverse interactions such as data retrieval and updates, thereby enriching the overall functionality."
+              // ghLink=""
+              // demoLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chat}
+              isBlog={false}
+              title="Chat Application"
+              description="I designed an appealing Flutter UI that blends aesthetics and user-friendliness, while seamless Firebase integration handles CRUD actions effortlessly. The app supports real-time text, image, and voice messaging, complemented by timely notifications. Notably, Google Ads integration ensures a smooth monetization strategy, enhancing the overall user experience."
               // ghLink=""
               // demoLink=""
             />
